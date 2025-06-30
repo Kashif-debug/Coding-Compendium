@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todolist</title>
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="todoInput" placeholder="enter todo" />
+      <button id="add">add</button>
+      <ul id="todoList"></ul>
+    </div>
+    <script>
+      const todoInput = document.getElementById("todoInput"); // Textbox
+      const add = document.getElementById("add"); // Add button
+      const todoList = document.getElementById("todoList"); // List that saves tasks
+
+
+      function addTodo() {
+        const todo = todoInput.value;
+        if (todo === "") return alert("Fill out input please...");
+        // create element li
+        const li = document.createElement("li");
+        // set text to the input value when buton clickd
+        li.textContent = todo;
+
+
+        // add event listener - click to remove the list item (Must add it here or later on in the function, since "li" must be defined fully)
+        li.addEventListener("click", function () {
+            li.remove();
+        });
+
+        // append element node to todoList
+        todoList.appendChild(li);
+        // clear input vaue here
+        todoInput.value = ""; 
+
+        // todoInput.textContent = "";   wouldn't work as ".textContent" is suited 
+        // for changing html text. The ".value" is suited for changing user inputs. 
+        // In this case, were clearing the user inputs after they add it to the to-do list.
+      }
+
+      add.addEventListener("click", addTodo);
+    </script>
+  </body>
+</html>
+
+
