@@ -1,0 +1,53 @@
+body{
+    font-family: "Edu SA Hand", sans-serif;
+    background-color: rgb(54, 54, 54);
+    padding: 20px;
+}
+
+.blog-post {
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: black
+
+    /* box-shadow: 0 0 6px rgba(255, 255, 255, 0.15); */
+    
+    /* I wanted to add a WHITE box shadow, but seemingly adding
+    it always removes all backgorund addons I applied to thie
+    class-select. So, just decided to ommit.
+     */
+    
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px
+    /* 
+    font-weight: 700; 
+    
+    In the tutorial this actually worked.
+    However, when I did it, in the live preview it didn't show a difference.
+    After chat-gpt, I had learnt that this is most likely due to the fact
+    that my choosen google font of "Edu SA Hand" is a is a handwritten-style font, 
+    and many display/handwritten fonts ignore or limit font-weight values.
+      */
+
+    text-transform: uppercase;
+
+    color: white
+
+}
+
+.intro {
+  font-size: 18px;
+  line-height: 1.8;
+
+  color: whitesmoke
+  
+}
+
+.content {
+  font-size: 16px;
+  color: whitesmoke;
+}
