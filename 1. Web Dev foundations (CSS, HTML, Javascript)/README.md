@@ -10,7 +10,7 @@ This section is focused on learning the basics of HTML, CSS, and Javascript. Ult
 * Note: Each project may slowly be building off of concepts covered in previous projects (especially ones that are later on, that also happen to be covering the same topic of either HTML, CSS, and Javascript). 
 
 
-### ***__A) HTML__***
+<p align="center"><strong><em><u>A) HTML</u></em></strong></p>
 
   
 <ins>I) Project: First Webpage</ins>
@@ -20,52 +20,52 @@ Concepts: HTML Essentials.
 Technology used: HTML. 
 
 
-<u>II) Project: Second Webpage</u>
+<ins>II) Project: Second Webpage</ins>
 
 Concepts: Semantic HTML, adding anchor tags and hyperlinks, and adding media to webpages (images, vidos, and audio)
 
 Technology used: HTML
 
 
-### ***__B) CSS__***
+<p align="center"><strong><em><u>B) CSS</u></em></strong></p>
 
   
-<u>I) Project: Style a Blogpost</u>
+<ins>I) Project: Style a Blogpost</ins>
 
 Concepts: CSS Essentials, CSS Selectors, Combinators
 
 Technologies used: HTML, CSS
 
 
-<u>II) Project: Styled Card</u>
+<ins>II) Project: Styled Card</ins>
 
 Concepts: CSS Box model
 
 Technologies used: HTML, CSS
 
 
-<u>III) Project: Sticky Navbar</u>
+<ins>III) Project: Sticky Navbar</ins>
 
 Concepts: Basic CSS Layout and Positioning
 
 Technologies used: HTML, CSS
 
 
-<u>IV) Project: Basic style on a Blogpost</u>
+<ins>IV) Project: Basic style on a Blogpost</ins>
 
 Concepts: CSS Typography
 
 Technologies used: HTML, CSS
 
 
-<u>VI) Project: Creating a Hero Section</u>
+<ins>VI) Project: Creating a Hero Section</ins>
 
 Concepts: CSS Backgrounds and Colors
 
 Technologies used: HTML, CSS
 
 
-<u>VII) Project: Responsive Pricing Cards</u>
+<ins>VII) Project: Responsive Pricing Cards</ins>
 
 Concepts: CSS Flexbox for Responsive Layouts
 
@@ -79,27 +79,27 @@ Concepts: Create a Responsive Blog Layout
 Technologies used: HTML, CSS
 
 
-<u>IX) Project: A Beautiful & Responsive Blog</u>
+<ins>IX) Project: A Beautiful & Responsive Blog</ins>
 
 Concepts: CSS Media Queries and Responsive Design
 
 Technologies used: HTML, CSS
 
 
-### ***__C) JavaScript__***
+<p align="center"><strong><em><u>C) JavaScript</u></em></strong></p>
 
 
 *(The majority of the mini-project's functionality are shown it the developer console. The only one's where it's shown directly on the html file are: Interactive to-do list, Interactive Color Changer, Simulating Loader)
 
 
-<u>I) Project: Simple Calculator (JavaScript prompts the user to enter two numbers then returns Sum, difference, quotient, and product of those two numbers)</u>
+<ins>I) Project: Simple Calculator (JavaScript prompts the user to enter two numbers then returns Sum, difference, quotient, and product of those two numbers)</ins>
 
 Concepts: Introduction to Java script
 
 Technologies used: HTML, CSS, JavaScript (Vanilla), Chrome Developer Console
 
 
-<u>II) Project: Todo List with Loop Operations</u>
+<ins>II) Project: Todo List with Loop Operations</ins>
 
 Concepts: Control Flow in JavaScript (Conditional Statements)
 
@@ -109,7 +109,7 @@ Technologies used: HTML, CSS, JavaScript (Vanilla), Chrome Developer Console
 * The way this todo list was formulated was via constant prompts asking what task that would like to be added. To end said prompts, it's requested to click the keyword "done". Then, all tasks were recorded under the developer "console".
 
 
-<u>III) Project: Interactive Grade Calculator</u>
+<ins>III) Project: Interactive Grade Calculator</ins>
 
 Concepts: Javascript Functions
 
@@ -119,35 +119,35 @@ Technologies used: HTML, CSS, JavaScript (Vanilla), Chrome Developer Console
 * The mini-project would receive a set of grades, then output the average between those grades and the corresponding letter mark of the average.
 
 
-<u>IV) Project: Student Management System</u>
+<ins>IV) Project: Student Management System</ins>
 
 Concepts: Arrays and Objects
 
 Technologies used: HTML, CSS, JavaScript (Vanilla), Chrome Developer Console
 
 
-<u>V) Project: Random Dice Roller & Game Score Tracker</u>
+<ins>V) Project: Random Dice Roller & Game Score Tracker</ins>
 
 Concepts: Math Object
 
 Technologies used: HTML, CSS, JavaScript (Vanilla), Chrome Developer Console
 
 
-<u>VI) Project: Interactive Todo List</u>
+<ins>VI) Project: Interactive Todo List</ins>
 
 Concepts: DOM (Document Object Model) Manipulation
 
 Technologies used: HTML, CSS, JavaScript (Vanilla)
 
 
-<u>VII) Project: Interactive Color Changes</u>
+<ins>VII) Project: Interactive Color Changes</ins>
 
 Concepts: Understanding JavaScript Events and Event Listeners
 
 Technologies used: HTML, CSS, JavaScript (Vanilla)
 
 
-<u>IX) Simulated Loader for an API</u>
+<ins>IX) Simulated Loader for an API</ins>
 
 Concepts: Synchronous vs Asynchronous JavaScript Events
 
