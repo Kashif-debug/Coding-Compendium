@@ -13,7 +13,7 @@ This section is focused on learning the basics of HTML, CSS, and Javascript. Ult
 ### ***__A) HTML__***
 
   
-<u>I) Project: First Webpage</u>
+<ins>I) Project: First Webpage</ins>
 
 Concepts: HTML Essentials. 
 
